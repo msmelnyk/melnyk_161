@@ -1,9 +1,14 @@
 #include <iostream>
 using namespace std;
 
+void print_1 (void) {
+    printf("Hello!");
+}
+
 int main() {
 
-    cout << "Hello, World!\n";
+    print_1();
+//    cout << "Hello, World!\n";
 
     return 0;
 }
